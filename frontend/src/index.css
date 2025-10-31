@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+:root{
+ font-family: "Quintessential", serif;
+}
+.placeholder-root::placeholder {
+  font-family: initial;
+}
