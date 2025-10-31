@@ -7,8 +7,7 @@ const AddModalController = ({ isOpen, onClose, book,  }) => {
 const [errorMessage, setErrorMessage] = useState([]);
   const handleAdd = async (newBook) => {
   try {
-     console.log('Sending book data:', newBook); // Add this line to debug
-     await axios.post(
+    await axios.post(
     `${API_URL}/books`,
     {
       author:newBook.author,

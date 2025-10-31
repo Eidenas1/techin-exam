@@ -1,17 +1,6 @@
-// "axios" using for make API queries
-// if you do not want to use it
-// you can use "fetch API"
-//
-// import axios from "axios";
-
-// "react-hook-form" using for make easier
-// make the same functionallity with JavaScript and HTML
-// also posible
-
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import spruce_tree from '../../assets/spruce_tree.png'
 const API_URL = import.meta.env.VITE_API_URL;
 const RegisterModal = ({
   isOpen,
