@@ -182,8 +182,8 @@ const DetailsPage = () => {
               value={reviewText}
               onChange={e => setReviewText(e.target.value)}
               rows={5}
-              className="w-full mb-4 p-2 border border-[#3a271b] rounded resize-none focus:outline-none focus:ring-2 focus:ring-[#4E3524]"
-              placeholder="Your review..."
+              className="w-full mb-4 p-2 border border-[#3a271b] rounded  "
+              placeholder="Your review"
             />
             <div className="flex justify-end gap-2">
               <button
